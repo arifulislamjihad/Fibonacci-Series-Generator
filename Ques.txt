@@ -1,0 +1,125 @@
+You have completed the previous assignment. You can understand how much the teacher has taught us, this time the teacher has given us another project below:
+
+this is clue:
+
+What is the Fibonacci Series?
+The Fibonacci series is a sequence of numbers where each number is the sum of the two numbers before it. It starts with zero and one:
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ...
+Each new number is formed by the sum of the previous two numbers. For example:
+1st term = 0 [default]
+2nd term = 1 [default]
+3rd term = 1st term + 2nd term = 0+1=1
+4th term = 2nd term + 3rd term = 1+1=2
+5th term = 3rd term + 4th term = 1+2=3
+6th term = 4th term + 5th term = 2+3=5
+7th term = 5th term + 6th term = 3 + 5 = 8
+8th term = 6th term + 7th term = 5 + 8 = 13
+9th term = 7th term + 8th term = 8 + 13 = 21
+10th term = 8th term + 9th term = 13 + 21 = 34
+Mathematical formula:
+F(n)=F(n−1)+F(n−2)
+where,
+F(0)=0
+F(1)=1
+Thus, as the value of n increases, new numbers are obtained.
+
+
+above is clue. Question is below:
+Question
+
+Overview: 
+
+Write a Python program to generate and display the Fibonacci series based on user input. 
+
+
+Note: 
+
+Avoid using AI tools, as it is essential to build skills independently for your long-term career growth. 
+
+
+Tasks: 
+
+The program should provide the following options: 
+
+• Generate the Fibonacci series up to a specific number of terms. 
+
+• Generate the Fibonacci series up to a specific maximum value.
+
+
+
+Requirements: 
+
+• Ask the user for the number of terms they want in the series (e.g., 6) 
+
+o Generate and display the Fibonacci series containing exactly that many terms. 
+
+• Ask the user for a maximum value (e.g., 10). 
+
+o Generate and display all Fibonacci numbers less than or equal to the given value. 
+
+• Use functions to implement the Fibonacci logic. Create at least one function for generating the series. 
+
+• Validate the user input: o Ensure the number of terms and maximum value are non-negative integers. 
+
+• Handle cases where the user provides invalid input gracefully. 
+
+• Display the series in a well-formatted way.
+
+ 
+
+Sample Input & Output: 
+
+
+
+Choose an option: 
+
+1. Generate Fibonacci series by number of terms 
+
+2. Generate Fibonacci series by maximum value 
+
+3. Exit 
+
+
+Enter your choice: 1
+
+Enter the number of terms: 6 
+
+Fibonacci series (6 terms): 0, 1, 1, 2, 3, 5
+
+
+
+Choose an option: 
+
+1. Generate Fibonacci series by number of terms 
+
+2. Generate Fibonacci series by maximum value 
+
+3. Exit 
+
+
+Enter your choice: 2 
+
+Enter the maximum value: 10 
+
+Fibonacci series (up to 10): 0, 1, 1, 2, 3, 5, 8 
+
+
+Choose an option: 
+
+1. Generate Fibonacci series by number of terms 
+
+2. Generate Fibonacci series by maximum value 
+
+3. Exit 
+
+
+Enter your choice: 3 
+
+Goodluck! 
+
+
+
+Submission: Paste your complete project code in the submission text box.
+
+
+write answer very simply. As if it covers the entire question. Don't do anything advanced level. Simply give me as much as the teacher has taught
